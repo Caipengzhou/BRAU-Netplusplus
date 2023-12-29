@@ -1,4 +1,4 @@
-# BRAU-Net++
+# BRAU-Net++: U-Shaped Hybrid CNN-Transformer Network for Medical Image Segmentation
 - Accurate medical image segmentation is essential for clinical quantification, disease diagnosis, treatment planning and many other applications. Both convolution-based and transformer-based u-shaped architectures have made 
 significant success in various medical image segmentation tasks. The former can efficiently learn local information of images while requiring much more image-specific inductive biases inherent to convolution operation. 
 The latter can effectively capture longrange dependency at different feature scales using selfattention, whereas it typically encounters the challenges of quadratic compute and memory requirements with sequence length increasing. 
