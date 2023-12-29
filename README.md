@@ -25,7 +25,6 @@ python test.py --dataset Synapse --is_savenii --volume_path your DATA_DIR --outp
 ```
 
 ## References
-* [Swin-Unet](https://github.com/HuCaoFighting/Swin-Unet)
 * [BiFormer](https://github.com/rayleizhu/BiFormer)
 * [DAEFormer](https://github.com/xmindflow/DAEFormer)
 * [DCSAU-Net](https://github.com/xq141839/DCSAU-Net)
