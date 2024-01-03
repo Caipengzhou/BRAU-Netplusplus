@@ -3,7 +3,7 @@
 significant success in various medical image segmentation tasks. The former can efficiently learn local information of images while requiring much more image-specific inductive biases inherent to convolution operation. 
 The latter can effectively capture longrange dependency at different feature scales using selfattention, whereas it typically encounters the challenges of quadratic compute and memory requirements with sequence length increasing. 
 To address this problem, through integrating the merits of these two paradigms in a welldesigned u-shaped architecture, we propose a hybrid yet effective CNN-Transformer network, named BRAU-Net++,
-for an accurate medical image segmentation task. Specifically, BRAU-Net++ uses bi-level routing attention as the core building block to design our u-shaped encoderdecoder structure, in which both encoder and decoder are
+for an accurate medical image segmentation task. Specifically, BRAU-Net++ uses bi-level routing attention as the core building block to design our u-shaped encoder-decoder structure, in which both encoder and decoder are
 hierarchically constructed, so as to learn global semantic information while reducing computational complexity. Furthermore, this network restructures skip connection by incorporating channel-spatial attention which adopts
 convolution operations, aiming to minimize local spatial information loss and amplify global dimension-interaction of multi-scale features. Extensive experiments on three public benchmark datasets demonstrate that our proposed
 approach surpasses other state-of-the-art methods including its baseline: BRAU-Net under almost all evaluation metrics. We achieve the average Dice-Similarity Coefficient(DSC) of 82.47, 90.10, and 92.94 on Synapse multi-organ
