@@ -32,7 +32,7 @@ python test.py --dataset Synapse --is_savenii --volume_path your DATA_DIR --outp
 ## Citation
 ```bash
 @article{lan2024BRAU-Net++,
-  title={BRAU-Net++: U-Shaped Hybrid CNN-Transformer Network For Medical Image Segmentation},
+  title={BRAU-Net++: U-Shaped Hybrid CNN-Transformer Network for Medical Image Segmentation},
   author={Lan, Libin and Cai, Pengzhou and Jiang, Lu and Liu, Xiaojuan and Li, Yongmei and Zhang, Yudong},
   journal={arXiv preprint arXiv:2401.00722},
   year={2024}
