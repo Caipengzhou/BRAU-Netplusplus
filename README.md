@@ -7,7 +7,7 @@ for an accurate medical image segmentation task. Specifically, BRAU-Net++ uses b
 hierarchically constructed, so as to learn global semantic information while reducing computational complexity. Furthermore, this network restructures skip connection by incorporating channel-spatial attention which adopts
 convolution operations, aiming to minimize local spatial information loss and amplify global dimension-interaction of multi-scale features. Extensive experiments on three public benchmark datasets demonstrate that our proposed
 approach surpasses other state-of-the-art methods including its baseline: BRAU-Net under almost all evaluation metrics. We achieve the average Dice-Similarity Coefficient(DSC) of 82.47, 90.10, and 92.94 on Synapse multi-organ
-segmentation, ISIC-2018 Challenge, and CVC-ClinicDB, as well as the mIoU of 84.01 and 88.17 on ISIC-2018 Challengeand CVC-ClinicDB, respectively. 
+segmentation, ISIC-2018 Challenge, and CVC-ClinicDB, as well as the mIoU of 84.01 and 88.17 on ISIC-2018 Challenge and CVC-ClinicDB, respectively. 
 
 ## 1. Synapse data and Model weights
 - Get Synapse data, model weights of our BRAU-Net++ on the Synapse dataset and biformer_base_best.pth. (https://drive.google.com/file/d/115-vkjCapans_Mx3EXLxZsxr_WSbpXxm/view?usp=sharing). I hope this will help you to reproduce the results.
@@ -29,3 +29,12 @@ python test.py --dataset Synapse --is_savenii --volume_path your DATA_DIR --outp
 * [DAE-Former](https://github.com/xmindflow/DAEFormer)
 * [DCSAU-Net](https://github.com/xq141839/DCSAU-Net)
 
+## Citation
+```bash
+@article{lan2024BRAU-Net++,
+  title={BRAU-Net++: U-Shaped Hybrid CNN-Transformer Network for Medical Image Segmentation},
+  author={Lan, Libin and Cai, Pengzhou and Jiang, Lu and Liu, Xiaojuan and Li, Yongmei and Zhang, Yudong},
+  journal={arXiv preprint arXiv:2401.00722},
+  year={2024}
+}
+```
