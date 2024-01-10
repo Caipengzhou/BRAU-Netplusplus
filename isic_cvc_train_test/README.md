@@ -21,5 +21,5 @@ python train.py --dataset your/data/path --csvfile your/csv/path --loss dice --b
 ```
 ## Evaluation
 ```
-python eval_binary.py --dataset your/data/path --csvfile your/csv/path --model save_models/epoch_last.pth --debug True
+python test.py --dataset your/data/path --csvfile your/csv/path --model save_models/epoch_last.pth --debug True
 ```
